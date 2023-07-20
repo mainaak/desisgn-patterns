@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         Bmw bmw = new BmwM5.BmwBuilder().mPowered(false).mPackage(true).build();
-        MercedesBmwAdapter adapter = new MercedesBmwAdapter(bmw);
+        Mercedes adapter = new MercedesBmwAdapter(bmw);
         System.out.println(getMercedesOwnershipCost(adapter));
     }
 
